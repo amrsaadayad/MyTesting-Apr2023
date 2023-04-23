@@ -6,10 +6,10 @@ try:
 except ValueError:
     print("Invalid input. Please enter an integer.")
 if(x>15):
-    print("too big for me")
-    exit()
-Fact=1
-for i in range (1,x+1):
-    Fact=Fact*i
-    i+=1
-print("the factorial is", Fact)
+    print("too large for me")
+else:
+    Fact=1
+    for i in range (1,x+1):
+        Fact=Fact*i
+        i+=1
+    print("the factorial is", Fact)
