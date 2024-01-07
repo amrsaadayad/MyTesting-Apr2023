@@ -6,7 +6,7 @@ try:
 except ValueError:
     print("Invalid input. Please enter an integer.")
 if(x>15):
-    print("too large for me")
+    print("too large for me!")
 else:
     Fact=1
     for i in range (1,x+1):
